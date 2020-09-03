@@ -1,0 +1,9 @@
+---
+- name: install - firefox packages
+  apt:
+    name: "{{ boxes_firefox_package_name }}"
+    state: present
+  loop_control:
+    loop_var: boxes_firefox_package_name
+  loop:
+    - firefox
