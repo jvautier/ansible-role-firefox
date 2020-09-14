@@ -1,0 +1,8 @@
+---
+fullname: jvautier/ansible-role-firefox
+description: Install firefox clients through ansible
+tags:
+  - ansible
+  - ansible-role
+  - firefox
+github: {}
